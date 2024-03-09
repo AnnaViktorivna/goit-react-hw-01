@@ -1,0 +1,72 @@
+.wrap {
+  width: 400px;
+  height: 450px;
+  border: 1px solid black;
+  border-radius: 2%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: gray;
+}
+.wrapUserInfo {
+  width: 398px;
+  display: block;
+  border-radius: 1.7%;
+  padding-top: 20px;
+  margin: 0 auto;
+  background-color: white;
+}
+.wrapUserInfoImg {
+  width: 80px;
+  height: 80px;
+  border: 1px solid blue;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 auto;
+}
+.wrapUserInfoName {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1.3em;
+  font-family: monospace;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.wrapUserInfoTag {
+  color: gray;
+  font-style: italic;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.wrapUserInfoLocation {
+  font-size: 16px;
+  line-height: 1.3em;
+  font-family: monospace;
+  color: gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.listStatsUser {
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+  padding: 50px 0;
+}
+.listStatsUser > .listStatsUserItem {
+  list-style: none;
+  margin: 0 auto;
+  border-right: 1px solid black;
+}
+
+.listStatsUserItem > span {
+  display: block;
+}

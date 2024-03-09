@@ -2,19 +2,10 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import Profile from "./components/Profile";
+import Profile from "./components/Profile/Profile";
 import userData from "./userData.json";
-// const userData = {
-//   username: "Jacques Gluke",
-//   tag: "jgluke",
-//   location: "Ocho Rios, Jamaica",
-//   avatar: "https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
-//   stats: {
-//     followers: 5603,
-//     views: 4827,
-//     likes: 1308,
-//   },
-// };
+import FriendList from "./components/FriendList/FriendList";
+import friends from "./friends.json";
 
 const App = () => {
   return (
@@ -27,6 +18,7 @@ const App = () => {
         image={userData.avatar}
         stats={userData.stats}
       />{" "}
+      <FriendList friends={friends} />
     </>
   );
 };
