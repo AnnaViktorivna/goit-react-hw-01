@@ -1,0 +1,15 @@
+.friendList {
+  display: flex;
+
+  gap: 24px;
+}
+
+.friendList li {
+  border: 2px solid black;
+  border-radius: 5%;
+  padding: 10px;
+}
+
+.friendList:hover li:hover {
+  border: 2px solid green;
+}

@@ -1,0 +1,27 @@
+.friendItem {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 34px;
+}
+
+.wrapFriendsInfo {
+  transition: transform 0.25s;
+}
+
+.wrapFriendsInfo:hover {
+  transform: scale(1.1);
+}
+
+.friendAvatar {
+  margin: 0 auto;
+}
+.friendName {
+  font-size: 22px;
+  font-weight: 700;
+}
+.friendIsOnline {
+  color: green;
+}
+.friendIsOffline {
+  color: red;
+}
